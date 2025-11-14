@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.dll
+*.log
+*.tmp
+
+# Envs
+.env
+.venv/
+venv/
+ENV/
+.env.*
+.python-version
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_convert*
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Model artifacts
+checkpoints/
+models/
+*.pth
+*.pt
+*.ckpt
+*.h5
+
+# Data / Artifacts
+*.csv
+*.pkl
+*.pickle
+data/
+datasets/
+
+# Visualizations
+*.png
+*.jpg
+*.jpeg
+!docs/images/*.png
+!docs/images/*.jpg
+
+# Misc
+*.zip
+*.tar.gz
+*.swp
+*~
+
+# Colab specific
+/sample_data/
+
+# Hugging Face caches
+huggingface/
+**/.cache/huggingface/
+/root/.cache/huggingface/
+
+# Stable-Baselines3
+*.zip
+*.log
+
